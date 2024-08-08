@@ -6,13 +6,15 @@ import NotFound from "./components/NotFound";
 import Other from "./components/Other";
 import Profile from "./components/Profile";
 import styles from "./css/Header.module.css";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <>
       <div className="container"></div>
       <h1>Welcome to Leong Chang Peng's Website</h1>
-      <h2>Please Click on any of the links to check further</h2>
+      <h2>Please Click on any of the links above to check further</h2>
 
       <NavBar />
       <Routes>
@@ -20,6 +22,8 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
     </>
   );

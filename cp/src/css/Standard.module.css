@@ -29,3 +29,17 @@
   /* Optional: Add spacing between list items */
   margin-bottom: 0;
 }
+
+.linkContainer {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.linkContainer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.linkContainer a:hover {
+  text-decoration: underline;
+}
