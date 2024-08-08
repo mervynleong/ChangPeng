@@ -10,9 +10,10 @@ import styles from "./css/Header.module.css";
 function App() {
   return (
     <>
-      <div className="container">
-        <h1>KERONIAO</h1>
-      </div>
+      <div className="container"></div>
+      <h1>Welcome to Leong Chang Peng's Website</h1>
+      <h2>Please Click on any of the links to check further</h2>
+
       <NavBar />
       <Routes>
         <Route path="/other" element={<Other />} />

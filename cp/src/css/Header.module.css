@@ -2,20 +2,29 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: rgb(49, 238, 49);
+  background-color: rgb(192, 208, 255);
   padding: 10px;
   box-sizing: border-box;
   width: 100%;
 }
 
 img {
-  width: 200px;
-  height: 100px;
-  background-color: rgb(49, 238, 49);
+  width: 1536px;
+  height: 585px;
+  background-color: rgb(192, 208, 255);
 }
 
 h1 {
-  color: black;
-  background-color: rgb(49, 238, 49);
-  margin: 60px 0 0 0;
+  color: rgb(20, 8, 8);
+  background-color: rgb(192, 208, 255);
+  margin: 60px 10px 10px 0px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  color: rgb(20, 8, 8);
+  background-color: rgb(192, 208, 255);
+  margin: 30px 5px 5px 0px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
