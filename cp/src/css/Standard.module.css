@@ -1,0 +1,31 @@
+.profileContainer {
+  /* Optional: Add padding or margins if needed */
+  padding: 1rem;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: rgb(49, 191, 238);
+}
+
+.educationList {
+  list-style-type: disc; /* Or use 'circle', 'square', or 'none' as needed */
+  margin: 0;
+  padding-left: 20px; /* Add padding to indent list items */
+  /* Ensure list items are aligned to the left */
+  text-align: left;
+}
+
+.educationListNoStyle {
+  list-style-type: none; /* Or use 'circle', 'square', or 'none' as needed */
+  margin: 0;
+  padding-left: 20px; /* Add padding to indent list items */
+  /* Ensure list items are aligned to the left */
+  text-align: left;
+}
+
+.educationList li {
+  /* Optional: Add spacing between list items */
+  margin-bottom: 0;
+}
