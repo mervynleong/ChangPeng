@@ -12,7 +12,7 @@
 .educationList {
   list-style-type: disc; /* Or use 'circle', 'square', or 'none' as needed */
   margin: 0;
-  padding-left: 20px; /* Add padding to indent list items */
+  padding-left: 10px; /* Add padding to indent list items */
   /* Ensure list items are aligned to the left */
   text-align: left;
 }
@@ -20,7 +20,7 @@
 .educationListNoStyle {
   list-style-type: none; /* Or use 'circle', 'square', or 'none' as needed */
   margin: 0;
-  padding-left: 20px; /* Add padding to indent list items */
+  padding-left: 10px; /* Add padding to indent list items */
   /* Ensure list items are aligned to the left */
   text-align: left;
 }
@@ -31,7 +31,7 @@
 }
 
 .linkContainer {
-  padding: 1rem;
+  padding: 0;
   border: 1px solid #ddd;
 }
 
