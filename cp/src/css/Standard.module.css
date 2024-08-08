@@ -12,9 +12,10 @@
 .educationList {
   list-style-type: disc; /* Or use 'circle', 'square', or 'none' as needed */
   margin: 0;
-  padding-left: 10px; /* Add padding to indent list items */
-  /* Ensure list items are aligned to the left */
-  text-align: left;
+  padding: 0;
+  display: flex; /* Use Flexbox */
+  flex-direction: row; /* Arrange items horizontally */
+  align-items: center; /* Center items vertically */
 }
 
 .educationListNoStyle {
@@ -26,8 +27,9 @@
 }
 
 .educationList li {
-  /* Optional: Add spacing between list items */
-  margin-bottom: 0;
+  margin: 0; /* No margin around list items */
+  padding: 0; /* No padding inside list items */
+  margin-right: 0.05rem; /* Minimal space between items */
 }
 
 .linkContainer {

@@ -7,20 +7,21 @@ const Skills = () => {
       <ul className={styles.educationListNoStyle}>
         <li>Computer Languages:</li>
       </ul>
-      <ul className={styles.educationList}>
-        <li>HTML</li>
-      </ul>
+
       <ul className={styles.educationList}>
         <li>CSS</li>
       </ul>
       <ul className={styles.educationList}>
-        <li>Javascript (Not Java)</li>
+        <li>HTML</li>
       </ul>
       <ul className={styles.educationList}>
         <li>Python</li>
       </ul>
       <ul className={styles.educationList}>
         <li>MATLAB</li>
+      </ul>
+      <ul className={styles.educationList}>
+        <li>Javascript (Not Java)</li>
       </ul>
       <ul className={styles.educationListNoStyle}>
         <li>DataBases Related:</li>
@@ -32,28 +33,31 @@ const Skills = () => {
         <li>PostgreSQL</li>
       </ul>
       <ul className={styles.educationListNoStyle}>
+        <li>FrameWorks:</li>
+      </ul>
+      <ul className={styles.educationList}>
+        <li>Express.js / React.js</li>
+      </ul>
+      <ul className={styles.educationListNoStyle}>
         <li>Other:</li>
       </ul>
       <ul className={styles.educationList}>
-        <li>Microsoft Excel</li>
-      </ul>
-      <ul className={styles.educationList}>
-        <li>Microsoft Word</li>
-      </ul>
-      <ul className={styles.educationList}>
-        <li>Microsoft Powerpoint</li>
+        <li>Node.js</li>
       </ul>
       <ul className={styles.educationList}>
         <li>SAP</li>
+      </ul>
+      <ul className={styles.educationList}>
+        <li>Microsoft Excel/ Word/ Powerpoint</li>
       </ul>
       <ul className={styles.educationListNoStyle}>
         <li>Engineering Design:</li>
       </ul>
       <ul className={styles.educationList}>
-        <li>AUTOCAD</li>
+        <li>Pro-E</li>
       </ul>
       <ul className={styles.educationList}>
-        <li>Pro-E</li>
+        <li>AUTOCAD</li>
       </ul>
     </div>
   );
