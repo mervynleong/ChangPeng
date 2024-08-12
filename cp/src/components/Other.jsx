@@ -20,10 +20,6 @@ const Other = () => {
       >
         My LinkedIn
       </a>
-      <div></div>
-      <a href="" target="_blank" rel="noopener noreferrer">
-        My Resume
-      </a>
     </div>
   );
 };
