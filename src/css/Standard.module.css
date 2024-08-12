@@ -1,0 +1,47 @@
+.profileContainer {
+  /* Optional: Add padding or margins if needed */
+  padding: 1rem;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: rgb(49, 191, 238);
+}
+
+.educationList {
+  list-style-type: disc; /* Or use 'circle', 'square', or 'none' as needed */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use Flexbox */
+  flex-direction: row; /* Arrange items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.educationListNoStyle {
+  list-style-type: none; /* Or use 'circle', 'square', or 'none' as needed */
+  margin: 0;
+  padding-left: 10px; /* Add padding to indent list items */
+  /* Ensure list items are aligned to the left */
+  text-align: left;
+}
+
+.educationList li {
+  margin: 0; /* No margin around list items */
+  padding: 0; /* No padding inside list items */
+  margin-right: 0.05rem; /* Minimal space between items */
+}
+
+.linkContainer {
+  padding: 0;
+  border: 1px solid #ddd;
+}
+
+.linkContainer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.linkContainer a:hover {
+  text-decoration: underline;
+}
