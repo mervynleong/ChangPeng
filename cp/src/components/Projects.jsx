@@ -14,7 +14,7 @@ const Projects = () => {
       </a>
       <div></div>
       <a
-        href="https://mervynleong.github.io/The_Rice_Game/"
+        href="https://mervynleong.github.io/TheRICEGAME/"
         target="_blank"
         rel="noopener noreferrer"
       >
